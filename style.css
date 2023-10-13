@@ -2,7 +2,8 @@ body {
     text-align: center;
     padding: 0;
     margin: 0;
-    background-color: rgb(255, 241, 144)
+    background: url('images/dcAndMarvelComicPic.jpeg') no-repeat center center fixed;
+    background-size: cover;
 }
 
 :root {
@@ -17,7 +18,7 @@ body {
     height: 400px;
     overflow: hidden;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 80px;
     background-color: aliceblue;
     border-radius: 8px;
     box-shadow: var(--outer-shadow);
@@ -38,7 +39,7 @@ ul li {
     border-radius: 5px;
     width: 98%;
     margin: 1px 0;
-    background-color: #fffd00;
+    background-color: black;
     box-sizing: border-box;
 }
 
@@ -71,6 +72,7 @@ ul li {
     display: inline-block;
     padding: 35px;
     margin: 40px;
+    margin-top: 130px;
     background-color: rgb(237 23 23);
     box-shadow: 0 0 29 31 #fff,
                 0 0 19px 19px #f00,
